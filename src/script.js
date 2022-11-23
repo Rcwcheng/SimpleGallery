@@ -54,10 +54,10 @@ const loadImages = () => {
 
     
     for (let i = 0; i < 39; i++) {
-        ImageArray.push(textureLoader.load(`image/image${i + 1}.png`));
-        DepthMapArray.push(textureLoader.load(`depth/depth${i + 1}.png`));
+        ImageArray.push(textureLoader.load(`SimpleGallery/dist/image/image${i + 1}.png`));
+        DepthMapArray.push(textureLoader.load(`SimpleGallery/dist/depth/depth${i + 1}.png`));
         PlainMaterials.push(new THREE.MeshBasicMaterial({
-            map: textureLoader.load(`image/image${i + 1}.png`)
+            map: textureLoader.load(`SimpleGallery/dist/image/image${i + 1}.png`)
         }));
     }
 
@@ -72,10 +72,10 @@ const loadImages = () => {
             uDistortUV: { value: 100 },
             uMouse: { value: [mouseX, mouseY] },
             uImageData: {
-                value: textureLoader.load(`image/image1.png`)
+                value: textureLoader.load(`SimpleGallery/dist/image/image1.png`)
             },
             uDepthMap: {
-                value:  textureLoader.load( `depth/depth1.png` ),
+                value:  textureLoader.load( `SimpleGallery/dist/depth/depth1.png` ),
             },
         }
     })
