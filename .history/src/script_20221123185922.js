@@ -37,6 +37,8 @@ const raycaster = new THREE.Raycaster();
 //orbitControl
 const controls = new OrbitControls(camera, canvas)
 controls.enabledDamping;
+console.log('controlTarget', controls.target)
+
 
 //renderer
 const renderer = new THREE.WebGLRenderer({
