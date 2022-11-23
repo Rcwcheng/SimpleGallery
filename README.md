@@ -1,5 +1,5 @@
 # SimpleGallery
 
-npm install
-npm run dev
-npm run build
+npm install <br>
+npm run dev <br>
+npm run build <br>
