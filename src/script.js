@@ -232,8 +232,8 @@ const on = () => {
 
     window.addEventListener("mousemove", (event) => {
         event.preventDefault();
-        mouseX = (event.offsetX / sizes.width  * 2 - 1) * 0.08;
-        mouseY = (event.offsetY / sizes.height * 2 - 1) * 0.08;
+        mouseX = (event.offsetX / sizes.width  * 2 - 1) * 0.05;
+        mouseY = (event.offsetY / sizes.height * 2 - 1) * 0.05;
 
         
         if(openDepth){
