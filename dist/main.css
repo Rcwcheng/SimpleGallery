@@ -1,0 +1,46 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    overflow: hidden;
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
+.message{
+    color:rgb(251, 248, 248);
+    position: absolute;
+    font-size: 0.8vw;
+    left: 0.9vw;
+    top: 1vw;
+    z-index: 9999;
+    line-height: 1.2vw;
+}
+
+.container {
+    margin: 0;
+    padding: 0.1vw;
+    position: absolute;
+    font-size: 0.8vw;
+    left: 0vw;
+    top: 0vw;
+    z-index: 900;
+    opacity: 0.7;
+    width: 16vw;
+    height: 7vw;
+    background-color: black;
+  }
+
+
+/*# sourceMappingURL=main.css.map*/
